@@ -1,0 +1,212 @@
+body {
+  font-family: 'Montserrat', 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+#title {
+  color: #ff5722;
+  background-color: #fff;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 2% 15% 7%;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+}
+
+/* Intro */
+.mainHead {
+  color: #006a71;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.mainHead:hover {
+  color: #ff5722;
+
+}
+
+/* Download Buttons Top*/
+.downbtn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Intro Image */
+.introImg {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+}
+
+.introImg2 {
+  width: 50%;
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+
+/* Features */
+#features {
+  background-color: #ef6856;
+  padding: 5% 15%;
+  position: relative;
+}
+
+.featureHead {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.feature_pos {
+  padding: 5%;
+}
+
+p {
+  color: #666262;
+}
+
+.ico {
+  color: #fddb3a;
+  margin-bottom: 1rem;
+}
+
+.ico:hover {
+  color: #79d70f;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #72d8b1;
+  color: #000;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.testimonial-text {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.testimonial_img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press Section*/
+#press {
+  padding: 3% 0 2%;
+}
+
+.press_logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section*/
+#pricing {
+  background-color: #dddddd;
+  padding: 6% 6% 3%;
+}
+
+.price_column {
+  padding: 3% 2%;
+}
+
+.pricingHead {
+  color: #ff5722;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+.priceText {
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #000;
+  font-weight: bold;
+}
+
+/* Action Section */
+#call2act {
+  padding: 4% 5% 2%;
+  background-color: #ff4c68;
+}
+
+.actionHead {
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+/* Download Button down */
+.downbtnlow {
+  margin: 3% 1% 3%;
+}
+
+/* Footer section */
+
+#footer {
+  padding: 6% 15% 5%;
+}
+
+footer p {
+  margin: 0;
+}
+
+.socialIco {
+  margin: 2% 1%;
+}
+
+/* Media Query */
+
+@media (max-width: 1000px) {
+  .introImg {
+    visibility: hidden;
+  }
+
+  .introImg2 {
+    position: static;
+    width: 45%;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .mainHead:hover {
+    color: #ff5722;
+  }
+
+  .testimonial-text {
+    font-size: 2rem;
+  }
+}
